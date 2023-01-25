@@ -1,0 +1,26 @@
+<div class="login-container">
+    <mat-card class="login-card">
+        <mat-card-header class="login-header">
+            <mat-card-title class="login-title">Login</mat-card-title>
+            <mat-card-subtitle class="login-subtitle">Inserisci le tue credenziali per accedere</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <mat-form-field appearance="outline" class="input-field">
+                <mat-label>Email/username</mat-label>
+                <input type="text" matInput [formControl]="emailControl">
+                <mat-error *ngIf="emailControl.invalid">Email invalida</mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="input-field">
+                <mat-label>Password</mat-label>
+                <input type="password" matInput [formControl]="passwordControl">
+                <mat-error *ngIf="passwordControl.invalid">Password invalida</mat-error>
+            </mat-form-field>
+        </mat-card-content>
+
+        <p class="login-error">{{ errorMessage }}</p>
+
+        <mat-card-actions class="login-button">
+            <button mat-raised-button color="primary" (click)="onLoginClick()">Accedi</button>
+        </mat-card-actions>
+    </mat-card>
+</div>

@@ -1,0 +1,14 @@
+.paragrafo {
+    margin: 0px;
+    color: green;
+}
+
+.spaziatura {
+    padding: 16px;
+    margin: 16px;
+}
+
+p {
+    font-weight: 700;
+    color: yellow;
+}

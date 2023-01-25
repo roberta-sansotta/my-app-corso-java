@@ -1,0 +1,25 @@
+.post-container {
+    margin: 16px;
+}
+
+.post-list-title {
+    padding: 12px;
+}
+
+.post-card {
+    margin: 16px 0px;
+    /* margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 16px;
+    margin-bottom: 16px; */
+}
+
+.post-title,
+.post-author,
+.post-description {
+    padding: 8px;
+}
+
+.post-author {
+    text-align: end;
+}

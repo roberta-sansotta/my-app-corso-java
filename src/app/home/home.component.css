@@ -1,0 +1,13 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    width: 275px;
+}
+
+.nav-list>li {
+    list-style-type: none
+}

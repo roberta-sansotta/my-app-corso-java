@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum sit, nam voluptatem perspiciatis a unde at provident itaque placeat quo nobis excepturi, soluta asperiores pariatur repudiandae debitis cumque, accusantium ipsam!",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server-2",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum sit, nam voluptatem perspiciatis a unde at provident itaque placeat quo nobis excepturi, soluta asperiores pariatur repudiandae debitis cumque, accusantium ipsam!",
+      "author": "typicode-2"
+    },
+    {
+      "id": 3,
+      "title": "json-server-3",
+      "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum sit, nam voluptatem perspiciatis a unde at provident itaque placeat quo nobis excepturi, soluta asperiores pariatur repudiandae debitis cumque, accusantium ipsam!",
+      "author": "typicode-3"
+    },
+    {
+      "title": "nuovo titolo",
+      "author": "io",
+      "description": "descrizione molto interessante",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

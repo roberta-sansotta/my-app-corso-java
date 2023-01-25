@@ -1,0 +1,22 @@
+<mat-card class="new-post-container">
+    <mat-card-title class="new-post-title">Aggiungi un post</mat-card-title>
+    <mat-card-content>
+        <form (ngSubmit)="onSavePost()" action="" [formGroup]="allControls" class="new-post-content">
+            <mat-form-field appearance="outline">
+                <mat-label>Titolo</mat-label>
+                <input type="text" matInput formControlName="title">
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Autore</mat-label>
+                <input type="text" matInput formControlName="author">
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Descrizione</mat-label>
+                <textarea matInput formControlName="description"></textarea>
+            </mat-form-field>
+            <div class="new-post-save">
+                <button type="submit" mat-raised-button color="primary">Salva</button>
+            </div>
+        </form>
+    </mat-card-content>
+</mat-card>

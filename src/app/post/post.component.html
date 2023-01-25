@@ -1,0 +1,10 @@
+<mat-card class="post-container">
+    <mat-card-title class="post-list-title">Lista dei post disponibili</mat-card-title>
+    <mat-card-content>
+        <mat-card *ngFor="let post of posts" class="post-card">
+            <h2 class="post-title">{{post.title}}</h2>
+            <p class="post-description">{{post.description}}</p>
+            <p class="post-author">By {{post.author}}</p>
+        </mat-card>
+    </mat-card-content>
+</mat-card>
